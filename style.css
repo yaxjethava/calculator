@@ -88,14 +88,11 @@ h1 {
     width: 45%;
     color: white;
     background-color: #787878;
-
 }
-
 #clear:hover,
 #back:hover {
     background-color: #78787899;
 }
-
 
 #equal {
     color: rgb(0, 0, 0);

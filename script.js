@@ -22,7 +22,6 @@ function equalto() {
 function calculation(textInbtn) {
     display.value = display.value + textInbtn;
     click.play();
-
 }
 
 function back() {
@@ -92,9 +91,8 @@ document.addEventListener('keydown', (event) => {
     }
     else {
 
-        if (event.key >= 0 && event.key <= 9 || event.key == '.' || event.key == '+' || event.key == '-' || event.key == '*' || event.key == '/') {
+        if (event.key >= 0 && event.key <= 9 || event.key == '.' || event.key == '+' || event.key == '-' || event.key == '*' || event.key == '/' || event.key == '(' || event.key == ')') {
             calculation(event.key);
         }
     }
 })
-
